@@ -1,0 +1,17 @@
+#second largest number in list
+
+#function
+def second_largest(list):
+    list.sort()
+    return list[-2]
+
+#input of list
+li=[]
+n=int(input("Enter size of list "))
+for i in range(0,n):
+    e=int(input("Enter element of list "))
+    li.append(e)
+
+#smallest
+print("second largest in ",li,"is")
+print(second_largest(li))           
