@@ -1,0 +1,4 @@
+# initializing a string
+name = "draco malfoy"
+#using capitalize function
+print(name.capitalize())
