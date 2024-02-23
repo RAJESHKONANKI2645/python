@@ -1,0 +1,2 @@
+Animals= ["cat", "dog", "tiger"] 
+print(Animals.index("dog"))
