@@ -1,0 +1,13 @@
+wrd = 'one'
+sec_wrd = 'toe'
+
+def unique_letters(x): 
+    output =[]
+    for char in x: 
+        if char not in output and char != " ": 
+            output.append(char)
+    return output
+
+final_output = (unique_letters(wrd) + unique_letters(sec_wrd))
+
+print(sorted(final_output))
